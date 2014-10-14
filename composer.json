@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jansenfelipe/cnpj-gratis": "1.0.*@dev"
+    }
+}
