@@ -1,18 +1,22 @@
-# Cadastro de Empresa
-
+## Cadastro de Empresa
+##### Consulta de CNPJ no site da Receita Federal
 ----------------------
 
-![alt text](https://github.com/jansenfelipe/cadastro-empresa/raw/master/exemplo_prinscreen.png "Demonstração")
+![Printscreen de exemplo](https://github.com/jansenfelipe/cadastro-empresa/raw/master/exemplo_prinscreen.png "Demonstração")
 
-Este é um projeto simples escrito em PHP para exemplificar o uso do package `jansenfelipe/cnpj-gratis`
+Este é um projeto simples escrito em PHP para exemplificar o uso do package [jansenfelipe/cnpj-gratis](https://github.com/jansenfelipe/cnpj-gratis)
 
 ### Para testar localmente
 
-Baixe ou clone o repositório
+Baixe ou clone o repositório e descompacte em um local de sua preferência.
 
     $ wget https://github.com/jansenfelipe/cadastro-empresa/archive/master.zip
 
-Pressupondo que você esteja utilizando PHP 5.4 >
+Acesse o diret[orio via terminal e rode o comando `install` do Composer
+
+    $ composer install
+
+Pressupondo que você esteja utilizando PHP >=5.4
 
     $ php -S localhost:8000
 
