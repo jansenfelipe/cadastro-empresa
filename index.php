@@ -30,7 +30,7 @@ $params = CnpjGratis::getParams();
                         <h4 class="modal-title" id="myModalLabel">Captcha</h4>
                     </div>
                     <div class="modal-body">
-                        <img src="<?php echo $params['captcha'] ?>" /><br /><br />
+                        <img src="<?php echo $params['captchaBase64'] ?>" /><br /><br />
                         <input type="text" class="form-control" id="captcha" placeholder="Informe os caracteres da imagem acima" />
                     </div>
                     <div class="modal-footer">
