@@ -93,7 +93,6 @@ $params = CnpjGratis::getParams();
                     var param = {
                         cnpj: $("#cnpj").val(),
                         captcha: $("#captcha").val(),
-                        viewstate: '<?php echo $params['viewstate'] ?>',
                         cookie: '<?php echo $params['cookie'] ?>'
                     };
 

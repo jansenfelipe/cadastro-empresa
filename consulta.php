@@ -8,10 +8,10 @@ use JansenFelipe\Utils\Mask as Mask;
 
 try {
 
-    if (!isset($_POST['cnpj']) || !isset($_POST['captcha']) || !isset($_POST['viewstate']) || !isset($_POST['cookie']))
+    if (!isset($_POST['cnpj']) || !isset($_POST['captcha']) || !isset($_POST['cookie']))
         throw new Exception('Informe todos os campos', 99);
 
-    $return = CnpjGratis::consulta($_POST['cnpj'], $_POST['captcha'], $_POST['viewstate'], $_POST['cookie']);
+    $return = CnpjGratis::consulta($_POST['cnpj'], $_POST['captcha'], $_POST['cookie']);
 
     $return['cep'] = Utils::mask($return['cep'], Mask::CEP);
     $return['code'] = 0;
